@@ -1,4 +1,23 @@
-Step create project
-- install node
-- typescript : npm install --save-dev typescript ts-node @types/node
-- npx tsc --init
+# ✂️ Barber Booking Backend
+
+ระบบจองคิวร้านตัดผมสุดล้ำ เขียนด้วย Node.js + PostgreSQL + Prisma พร้อมใช้งานในไม่กี่นาที
+
+## 🚀 Tech Stack
+
+- **Node.js** – ตัวแม่ของ backend
+- **TypeScript** – สะอาด ปลอดภัย ไม่มั่ว
+- **NestJS** – (ลบออกถ้าไม่ได้ใช้)
+- **PostgreSQL** – Database สายโหด
+- **Prisma ORM** – เขียน SQL แบบคนไม่อยากตาย
+- **Docker** (optional) – จะได้ไม่ต้องมานั่ง set local
+
+---
+
+## 🛠 Setup
+
+### 1. Clone Repo
+
+```bash
+git clone https://github.com/kittophop1998/node-backend-barber-booking.git
+cd node-backend-barber-booking
+npm install
